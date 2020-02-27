@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9957290324080C0A004963CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957290224080C0A004963CD /* AppDelegate.swift */; };
+		9957290524080C0A004963CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957290424080C0A004963CD /* SceneDelegate.swift */; };
+		9957290724080C0A004963CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957290624080C0A004963CD /* ContentView.swift */; };
+		9957290924080C0B004963CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9957290824080C0B004963CD /* Assets.xcassets */; };
+		9957290C24080C0B004963CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9957290B24080C0B004963CD /* Preview Assets.xcassets */; };
+		9957290F24080C0B004963CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9957290D24080C0B004963CD /* LaunchScreen.storyboard */; };
+		9957291A24080C0B004963CD /* ValuaTaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957291924080C0B004963CD /* ValuaTaxiTests.swift */; };
+		9957292524080C0B004963CD /* ValuaTaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957292424080C0B004963CD /* ValuaTaxiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9957291624080C0B004963CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995728F724080C0A004963CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995728FE24080C0A004963CD;
+			remoteInfo = ValuaTaxi;
+		};
+		9957292124080C0B004963CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995728F724080C0A004963CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995728FE24080C0A004963CD;
+			remoteInfo = ValuaTaxi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		995728FF24080C0A004963CD /* ValuaTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValuaTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9957290224080C0A004963CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9957290424080C0A004963CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9957290624080C0A004963CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9957290824080C0B004963CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9957290B24080C0B004963CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9957290E24080C0B004963CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9957291024080C0B004963CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9957291524080C0B004963CD /* ValuaTaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValuaTaxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9957291924080C0B004963CD /* ValuaTaxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuaTaxiTests.swift; sourceTree = "<group>"; };
+		9957291B24080C0B004963CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9957292024080C0B004963CD /* ValuaTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValuaTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9957292424080C0B004963CD /* ValuaTaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuaTaxiUITests.swift; sourceTree = "<group>"; };
+		9957292624080C0B004963CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		995728FC24080C0A004963CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9957291224080C0B004963CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9957291D24080C0B004963CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		995728F624080C0A004963CD = {
+			isa = PBXGroup;
+			children = (
+				9957290124080C0A004963CD /* ValuaTaxi */,
+				9957291824080C0B004963CD /* ValuaTaxiTests */,
+				9957292324080C0B004963CD /* ValuaTaxiUITests */,
+				9957290024080C0A004963CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9957290024080C0A004963CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				995728FF24080C0A004963CD /* ValuaTaxi.app */,
+				9957291524080C0B004963CD /* ValuaTaxiTests.xctest */,
+				9957292024080C0B004963CD /* ValuaTaxiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9957290124080C0A004963CD /* ValuaTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				9957290224080C0A004963CD /* AppDelegate.swift */,
+				9957290424080C0A004963CD /* SceneDelegate.swift */,
+				9957290624080C0A004963CD /* ContentView.swift */,
+				9957290824080C0B004963CD /* Assets.xcassets */,
+				9957290D24080C0B004963CD /* LaunchScreen.storyboard */,
+				9957291024080C0B004963CD /* Info.plist */,
+				9957290A24080C0B004963CD /* Preview Content */,
+			);
+			path = ValuaTaxi;
+			sourceTree = "<group>";
+		};
+		9957290A24080C0B004963CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9957290B24080C0B004963CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9957291824080C0B004963CD /* ValuaTaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9957291924080C0B004963CD /* ValuaTaxiTests.swift */,
+				9957291B24080C0B004963CD /* Info.plist */,
+			);
+			path = ValuaTaxiTests;
+			sourceTree = "<group>";
+		};
+		9957292324080C0B004963CD /* ValuaTaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9957292424080C0B004963CD /* ValuaTaxiUITests.swift */,
+				9957292624080C0B004963CD /* Info.plist */,
+			);
+			path = ValuaTaxiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		995728FE24080C0A004963CD /* ValuaTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9957292924080C0B004963CD /* Build configuration list for PBXNativeTarget "ValuaTaxi" */;
+			buildPhases = (
+				995728FB24080C0A004963CD /* Sources */,
+				995728FC24080C0A004963CD /* Frameworks */,
+				995728FD24080C0A004963CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValuaTaxi;
+			productName = ValuaTaxi;
+			productReference = 995728FF24080C0A004963CD /* ValuaTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9957291424080C0B004963CD /* ValuaTaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9957292C24080C0B004963CD /* Build configuration list for PBXNativeTarget "ValuaTaxiTests" */;
+			buildPhases = (
+				9957291124080C0B004963CD /* Sources */,
+				9957291224080C0B004963CD /* Frameworks */,
+				9957291324080C0B004963CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9957291724080C0B004963CD /* PBXTargetDependency */,
+			);
+			name = ValuaTaxiTests;
+			productName = ValuaTaxiTests;
+			productReference = 9957291524080C0B004963CD /* ValuaTaxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9957291F24080C0B004963CD /* ValuaTaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9957292F24080C0B004963CD /* Build configuration list for PBXNativeTarget "ValuaTaxiUITests" */;
+			buildPhases = (
+				9957291C24080C0B004963CD /* Sources */,
+				9957291D24080C0B004963CD /* Frameworks */,
+				9957291E24080C0B004963CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9957292224080C0B004963CD /* PBXTargetDependency */,
+			);
+			name = ValuaTaxiUITests;
+			productName = ValuaTaxiUITests;
+			productReference = 9957292024080C0B004963CD /* ValuaTaxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		995728F724080C0A004963CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = panuwatprojact;
+				TargetAttributes = {
+					995728FE24080C0A004963CD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9957291424080C0B004963CD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 995728FE24080C0A004963CD;
+					};
+					9957291F24080C0B004963CD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 995728FE24080C0A004963CD;
+					};
+				};
+			};
+			buildConfigurationList = 995728FA24080C0A004963CD /* Build configuration list for PBXProject "ValuaTaxi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 995728F624080C0A004963CD;
+			productRefGroup = 9957290024080C0A004963CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				995728FE24080C0A004963CD /* ValuaTaxi */,
+				9957291424080C0B004963CD /* ValuaTaxiTests */,
+				9957291F24080C0B004963CD /* ValuaTaxiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		995728FD24080C0A004963CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9957290F24080C0B004963CD /* LaunchScreen.storyboard in Resources */,
+				9957290C24080C0B004963CD /* Preview Assets.xcassets in Resources */,
+				9957290924080C0B004963CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9957291324080C0B004963CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9957291E24080C0B004963CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		995728FB24080C0A004963CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9957290324080C0A004963CD /* AppDelegate.swift in Sources */,
+				9957290524080C0A004963CD /* SceneDelegate.swift in Sources */,
+				9957290724080C0A004963CD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9957291124080C0B004963CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9957291A24080C0B004963CD /* ValuaTaxiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9957291C24080C0B004963CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9957292524080C0B004963CD /* ValuaTaxiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9957291724080C0B004963CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995728FE24080C0A004963CD /* ValuaTaxi */;
+			targetProxy = 9957291624080C0B004963CD /* PBXContainerItemProxy */;
+		};
+		9957292224080C0B004963CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995728FE24080C0A004963CD /* ValuaTaxi */;
+			targetProxy = 9957292124080C0B004963CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9957290D24080C0B004963CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9957290E24080C0B004963CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9957292724080C0B004963CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9957292824080C0B004963CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9957292A24080C0B004963CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ValuaTaxi/Preview Content\"";
+				DEVELOPMENT_TEAM = 94NVY3DZP9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ValuaTaxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-panuwat15264za-Workshop-1-Score.git.ValuaTaxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9957292B24080C0B004963CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ValuaTaxi/Preview Content\"";
+				DEVELOPMENT_TEAM = 94NVY3DZP9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ValuaTaxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-panuwat15264za-Workshop-1-Score.git.ValuaTaxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9957292D24080C0B004963CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94NVY3DZP9;
+				INFOPLIST_FILE = ValuaTaxiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-panuwat15264za-Workshop-1-Score.git.ValuaTaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValuaTaxi.app/ValuaTaxi";
+			};
+			name = Debug;
+		};
+		9957292E24080C0B004963CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94NVY3DZP9;
+				INFOPLIST_FILE = ValuaTaxiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-panuwat15264za-Workshop-1-Score.git.ValuaTaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValuaTaxi.app/ValuaTaxi";
+			};
+			name = Release;
+		};
+		9957293024080C0B004963CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94NVY3DZP9;
+				INFOPLIST_FILE = ValuaTaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-panuwat15264za-Workshop-1-Score.git.ValuaTaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValuaTaxi;
+			};
+			name = Debug;
+		};
+		9957293124080C0B004963CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94NVY3DZP9;
+				INFOPLIST_FILE = ValuaTaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-panuwat15264za-Workshop-1-Score.git.ValuaTaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValuaTaxi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		995728FA24080C0A004963CD /* Build configuration list for PBXProject "ValuaTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9957292724080C0B004963CD /* Debug */,
+				9957292824080C0B004963CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9957292924080C0B004963CD /* Build configuration list for PBXNativeTarget "ValuaTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9957292A24080C0B004963CD /* Debug */,
+				9957292B24080C0B004963CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9957292C24080C0B004963CD /* Build configuration list for PBXNativeTarget "ValuaTaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9957292D24080C0B004963CD /* Debug */,
+				9957292E24080C0B004963CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9957292F24080C0B004963CD /* Build configuration list for PBXNativeTarget "ValuaTaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9957293024080C0B004963CD /* Debug */,
+				9957293124080C0B004963CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 995728F724080C0A004963CD /* Project object */;
+}
